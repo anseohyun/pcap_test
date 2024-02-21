@@ -6,7 +6,8 @@ pcap file로부터 packet을 읽어서 IP별 송신 패킷 갯수, 수신 패킷
 
 ## 실행
 > syntax : packet-stat <pcap file>
- > sample : packet-stat test.pcap
+
+> sample : packet-stat test.pcap
 
 ## 상세
 * pcap_open_live 함수를 사용하지 않고 pcap_open_offline 함수를 사용하면 실제 NIC이 아닌 pcap 파일로부터 패킷을 읽을 수 있다.
